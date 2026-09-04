@@ -3,9 +3,9 @@ class Solution {
         int start = 0;
         int end = arr.length-1;
         while(start < end){
-            char ch = arr[start];
+            char temp = arr[start];
             arr[start] = arr[end];
-            arr[end] = ch;
+            arr[end] = temp;
             start++;
             end--;
         }
