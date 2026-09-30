@@ -8,6 +8,6 @@ class Solution {
             if(missed < k) lo = mid + 1;
             else hi = mid - 1;
         }
-        return k + lo;
+        return k + (hi + 1);
     }
 }
