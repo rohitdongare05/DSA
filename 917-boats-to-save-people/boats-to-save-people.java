@@ -3,7 +3,7 @@ class Solution {
         Arrays.sort(people);
         int start = 0;
         int end = people.length-1;
-        int countt = 0;
+        int count = 0;
 
         while(start <= end){
             if(people[start] + people[end] <= limit){
@@ -12,8 +12,8 @@ class Solution {
             }else{
                 end--;
             }
-            countt++;
+            count++;
         }
-        return countt;
+        return count;
     }
 }
