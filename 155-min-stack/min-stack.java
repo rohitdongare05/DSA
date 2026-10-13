@@ -6,11 +6,11 @@ class MinStack {
         min = new Stack<>();
     }
     
-    public void push(int val) {
-        if(st.size()==0 || min.peek()>=val){
-            min.push(val);
+    public void push(int value) {
+        if(st.size()==0 || min.peek()>=value){
+            min.push(value);
         }
-        st.push(val);
+        st.push(value);
     }
     
     public void pop() {
