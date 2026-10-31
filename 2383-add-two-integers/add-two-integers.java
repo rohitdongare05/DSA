@@ -1,7 +1,5 @@
 class Solution {
     public int sum(int num1, int num2) {
-        int c = num1 + num2;
-        int d = c;
-        return d;
+        return num1 + num2;
     }
 }
