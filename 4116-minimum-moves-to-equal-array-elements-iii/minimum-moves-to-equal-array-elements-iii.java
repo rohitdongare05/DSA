@@ -4,10 +4,10 @@ class Solution {
         for(int num : nums){
             max = Math.max(max, num);
         }
-        int moves = 0;
+        int count = 0;
         for(int num : nums){
-            moves += (max - num);
+            count += (max - num);
         }
-        return moves;
+        return count;
     }
 }
